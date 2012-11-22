@@ -1,0 +1,18 @@
+var v = [];
+_.each(DATA, function(verse){
+  var ret;
+  ret = _.filter( verse, function(o){
+     return o[3] == 'V';
+  });
+  if(ret && ret.length >0){
+     _.each( ret, function(item){
+         v.push(item[9]); //console.log(ret);
+     });
+  }
+});
+console.log( JSON.stringify(_.uniq(v)) );
+
+
+
+
+["Ebd","Ewn","hdy","nEm","Amn","qwm","rzq","nfq","nzl","yqn","kfr","n*r","xtm","qwl","xdE","$Er","zyd","kwn","k*b","fsd","Elm","lqy","xlw","hzA","mdd","Emh","$ry","rbH","wqd","DwA","*hb","trk","bSr","rjE","jEl","kwd","xTf","m$y","Zlm","$yA","xlq","wqy","xrj","Aty","dEw","fEl","Edd","b$r","Eml","jry","Hyy","Drb","rwd","Dll","nqD","qTE","Amr","wSl","mwt","swy","sfk","sbH","qds","ErD","nbA","bdw","ktm","sjd","Aby","kbr","skn","Akl","qrb","zll","hbT","twb","tbE","Hzn","*kr","wfy","rhb","lbs","rkE","nsy","tlw","Eql","Znn","fDl","jzy","qbl","Ax*","nSr","njw","swm","*bH","frq","grq","nZr","wEd","Efw","$kr","qtl","rAy","bEv","Zll","dxl","gfr","bdl","fsq","sqy","fjr","$rb","Evw","Sbr","nbt","sAl","bwA","ESy","Edw","hwd","rfE","wly","Ew*","byn","srr","$bh","vwr","jyA","drA","qsw","$qq","TmE","smE","Hrf","Hdv","ftH","Hjj","Eln","ktb","ksb","mss","xlf","HwT","qrr","$hd","Zhr","fdy","rdd","xff","qfw","Ayd","hwy","lEn","Erf","bAs","mny","qdm","wjd","$rk","wdd","Emr","Ehd","nb*","Drr","nfE","rEy","xSS","nsx","SfH","hAt","slm","lys","Hkm","mnE","sEy","qDy","klm","rsl","rDw","blw","tmm","nyl","Thr","mtE","zkw","rgb","sfh","Sfw","wSy","HDr","kfy","qlb","DyE","sbq","x$y","Swb","Twf","TwE","SlH","bvv","Hbb","brA","lfw","nEq","Hrm","hll","Sdq","xwf","Twq","Swm","kml","jwb","r$d","Hll","xwn","bgy","dlw","flH","vqf","nhy","Hsn","HSr","ysr","Hlq","blg","frD","zwd","fyD","Ejl","Axr","H$r","Ejb","hlk","zyn","sxr","Hsb","zlzl","Esy","krh","zyl","HbT","hjr","jhd","rjw","fkr","xlT","Ent","nkH","Ezl","brr","Alw","fyA","Ezm","rbS","Tlq","msk","srH","wEZ","EDl","rDE","klf","w*r","knn","H*r","HfZ","qrD","DEf","qbD","bsT","Hml","fSl","TEm","grf","jwz","glb","brz","frg","vbt","hzm","$fE","wsE","Awd","bht","mrr","lbv","snh","n$z","ksw","Tmn","Swr","bTl","qdr","Hrq","ymm","gmD","xfy","xbT","slf","Ewd","mHq","rbw","bqy","A*n","dyn","mll","bxs","sAm","ryb","dwr","byE","Ady","E*b","xTA","rHm","zyg","whb","gny","grr","fry","jmE","nzE","Ezz","*ll","wlj","wDE","smw","kfl","ndw","Slw","qnt","wHy","xSm","nfx","*xr","Hss","mkr","Elw","bhl","dwm","lwy","drs","Sdd","ESm","Alf","SbH","nq*","byD","swd","*wq","srE","EDD","swA","frH","gdw","hmm","f$l","wkl","kbt","Srr","syr","whn","dwl","mHS","kyn","Srf","SEd","vwb","fwt","g$w","lyn","fDD","$wr","x*l","gll","mnn","dfE","qEd","lHq","mlw","myz","TlE","jby","bxl","zHzH","fwz","Hmd","xzy","A*y","rbT","qsT","Tyb","Edl","mlk","Ewl","Ans","Eff","qll","kvr","Sly","wrv","dry","Etd","E$r","fDw","HSn","myl","jnb","Eqd","wfq","gsl","lms","msH","Tms","Hsd","nDj","zEm","Hlf","$jr","nfr","bTA","kff","drk","fqh","byt","dbr","*yE","nbT","HrD","rks","slT","gDb","wqE","qSr","ftn","gfl","Alm","jdl","rmy","btk","gyr","xsr","fty","HrS","xwD","Hw*","xlS","TbE","Slb","qSS","glw","nkf"]
